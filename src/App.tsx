@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import AngryScene from "@/components/AngryScene";
+import HappyScene from "@/components/HappyScene";
 
 const BASE_W = 375;
 const BASE_H = 812;
@@ -24,7 +24,7 @@ export default function App() {
           transformOrigin: "center",
         }}
       >
-        <AngryScene />
+        <HappyScene />
       </div>
     </div>
   );
